@@ -4,6 +4,7 @@ public class Main {
     public Main() {
     }
 
+    /* 解説：配列から取り出す値はint型の配列である点に注意。 */
     public void main() {
         int[][] values = {
             { 1, 3 },

@@ -4,6 +4,8 @@ public class Main {
     public Main() {
     }
 
+    /* 解説：問1-2で行ったことを応用して、キャストを行わないことで整数の結果を取得する。 */
+    /* 余りは剰余計算を用いて取得する。 */
     public void main() {
         int x = 51;
         int y = 7;

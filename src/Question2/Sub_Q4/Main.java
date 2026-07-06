@@ -6,6 +6,10 @@ public class Main {
     public Main() {
     }
 
+    /* 解説：Dryerクラス、AirConditionerクラスが共にDryableインタフェースを実装しているため、 */
+    /* Mapの値の型をDryableにすることで両方格納可能になる。 */
+    /* ただし、Mapから取得した値はあくまでDryable型であるため、 */
+    /* Dryableで宣言しているdryメソッドのみ呼び出し可能になる。 */
     public void main() {
         Dryer d = new Dryer();
         AirConditioner a = new AirConditioner();

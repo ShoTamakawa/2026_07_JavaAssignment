@@ -4,6 +4,8 @@ public class Main {
     public Main() {
     }
 
+    /* 解説：for文の条件式を配列のlength未満にする。以下にしてしまうと範囲外アクセスになってしまう。　*/
+    /* ループに使用しているiは配列の最初のインデックスに使用する。 */
     public void main() {
         int[][] values = {
             { 1, 3 },
