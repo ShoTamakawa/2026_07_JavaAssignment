@@ -15,6 +15,7 @@ public class Main {
         }
     }
 
+    /* NullPointerExceptionを投げるメソッド */
     private void exceptionPossibility() throws NullPointerException {
         throw new NullPointerException();
     }
