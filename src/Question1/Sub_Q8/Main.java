@@ -7,7 +7,7 @@ public class Main {
     /* 解説：30億はint型の最大値2^31-1より大きい。*/
     /* なので、そのまま出力しようとするとオーバーフローが発生して負の値になってしまう。*/
     /* そのため、片方の値をキャストもしくは数字の末尾にLを付加してLong型にして計算を行う必要がある。*/
-    public void main() {
+    public static void main(String[] args) {
         /* good */
         System.out.println( (long)2000000000 + 1000000000 );
 

@@ -9,7 +9,7 @@ public class Main {
     /* 解説：エラトステネスの篩に倣った方法。*/
     /* 対象の値の平方根以下の素数についてのみチェックを行うことで余計な判定を省いている。*/
     /* 最後に、判定に使用したリストを出力すればaまでの素数を列挙することができる。*/
-    public void main() {
+    public static void main(String[] args) {
         /* 素数のリスト */
         List<Integer> primeNumbers = new ArrayList<>();
 

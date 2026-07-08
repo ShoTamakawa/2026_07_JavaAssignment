@@ -5,7 +5,7 @@ public class Main {
     }
 
     /* 解説：いずれのdryメソッドもアクセス修飾子publicで作成する必要がある。 */
-    public void main() {
+    public static void main(String[] args) {
         Dryer d = new Dryer();
         AirConditioner a = new AirConditioner();
 

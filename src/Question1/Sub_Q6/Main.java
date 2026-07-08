@@ -7,7 +7,7 @@ public class Main {
     /* 解説：二重ループを使用して表を作成する。 */
     /* System.out.printlnを使用すると改行してしまうのでprintを使用する。 */
     /* String.formatを使用して整形できるとより良い。 */
-    public void main() {
+    public static void main(String[] args) {
         /* good */
         for( int i = 1; i <= 9; i++ ) {
             for( int j = 1; j <= 9; j++ ) {

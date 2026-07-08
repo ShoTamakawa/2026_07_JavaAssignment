@@ -4,7 +4,7 @@ public class Main {
     public Main() {
     }
 
-    public void main() {
+    public static void main(String[] args) {
         Dryer d = new Dryer();
         AirConditioner a = new AirConditioner();
     }

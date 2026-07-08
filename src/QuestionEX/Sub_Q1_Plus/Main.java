@@ -4,7 +4,7 @@ public class Main {
     public Main() {
     }
 
-    public void main() {
+    public static void main(String[] args) {
         /* Trump と Player を作成 */
         Trump trump = new Trump();
         Player[] players = {

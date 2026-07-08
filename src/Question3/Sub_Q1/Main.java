@@ -6,7 +6,7 @@ public class Main {
 
     /* 解説：0除算などの算術演算の例外はArithmeticExceptionで返される。 */
     /* Exceptionでもcatch可能ではあるが、例外を詳細化できていないためよろしくない。 */
-    public void main() {
+    public static void main(String[] args) {
         int x = 3;
         int y = 0;
 

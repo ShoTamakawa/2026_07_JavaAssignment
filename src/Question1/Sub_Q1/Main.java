@@ -4,7 +4,7 @@ public class Main {
     public Main() {
     }
 
-    public void main() {
+    public static void main(String[] args) {
         int x = 3;
         int y = 5;
 

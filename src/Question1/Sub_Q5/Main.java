@@ -5,7 +5,7 @@ public class Main {
     }
 
     /* 解説：配列から取り出す値はint型の配列である点に注意。 */
-    public void main() {
+    public static void main(String[] args) {
         int[][] values = {
             { 1, 3 },
             { 5, 7 },
