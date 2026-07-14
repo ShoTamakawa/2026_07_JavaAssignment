@@ -17,8 +17,8 @@ public class Main {
         Map<Integer, Dryable> m = new HashMap<>();
         m.put(1, d);
         m.put(2, a);
-        for( Dryable value : m.values() ) {
-            value.dry();
-        }
+
+        m.get(2).dry();
+        m.get(1).dry();
     }
 }
