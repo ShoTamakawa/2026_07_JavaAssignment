@@ -39,14 +39,11 @@ public class Trump {
             return;
         }
 
-        int i = 0;
-
         /* 保持しているカードが0枚になるまで繰り返す */
-        while( !cardList.isEmpty() ) {
+        for( int i = 0; !cardList.isEmpty(); i++ ) {
             /* iの剰余を使うことで1枚ずつ均等に配ることができる */
             players[i % players.length].receive(cardList.getFirst());
             cardList.removeFirst();
-            i++;
         }
     }
 
