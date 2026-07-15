@@ -2,12 +2,12 @@ package QuestionEX.Sub_Q1_Plus;
 
 /* Cardクラスを継承する */
 public class CardNumber extends Card {
-    public static final String MARK_SPADE = "S";
-    public static final String MARK_HEART = "H";
-    public static final String MARK_DIAMOND = "D";
-    public static final String MARK_CLUB = "C";
+    public static final Character MARK_SPADE = 'S';
+    public static final Character MARK_HEART = 'H';
+    public static final Character MARK_DIAMOND = 'D';
+    public static final Character MARK_CLUB = 'C';
 
-    public static final String[] MAKRS = {
+    public static final Character[] MAKRS = {
         MARK_SPADE,
         MARK_HEART,
         MARK_DIAMOND,
@@ -16,11 +16,11 @@ public class CardNumber extends Card {
 
     public static final int NUMBER_MAX = 13;
 
-    public final String mark;
+    public final Character mark;
     public final int number;
 
     /* 引数ありのコンストラクタのみ公開する */
-    public CardNumber( String _mark, int _number ) {
+    public CardNumber( Character _mark, int _number ) {
         this.mark = _mark;
         this.number = _number;
     }
@@ -35,6 +35,6 @@ public class CardNumber extends Card {
     /* 出力時にtoStringを呼び出すだけで目的の出力ができるようになる */
     @Override
     public String toString() {
-        return (mark + number);
+        return (Character.toString(mark) + number);
     }
 }
