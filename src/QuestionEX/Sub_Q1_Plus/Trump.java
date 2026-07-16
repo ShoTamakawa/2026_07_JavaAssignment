@@ -14,7 +14,7 @@ public class Trump {
     /* Cardのリストであるため、暗黙の型変換による格納ができる */
     private void initialize() {
 
-        for( Character mark : CardNumber.MAKRS ) {
+        for( char mark : CardNumber.MAKRS ) {
             for( int i = 1; i <= CardNumber.NUMBER_MAX; i++ ) {
                 cardList.add( new CardNumber( mark, i ) );
             }

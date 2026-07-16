@@ -12,7 +12,7 @@ public class Trump {
     /* マーク * 数字分だけカードを生成し、リストに格納する */
     private void initialize() {
 
-        for( Character mark : Card.MAKRS ) {
+        for( char mark : Card.MAKRS ) {
             for( int i = 1; i <= Card.NUMBER_MAX; i++ ) {
                 cardList.add( new Card( mark, i ) );
             }
